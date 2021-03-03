@@ -1,9 +1,15 @@
-## SQL lectures
+## Key Vocab
+- SELECT: selects attributes (columns) from a table(s)
+- FROM: references primary table we are querying
+- JOIN: adds a related table to our query (inner, left outer, right outer, full outer)
+- ON: How we set our relationship (primary key == foreign key)
+- WHERE: Uses conditions to query data (non aggregate - not using GROUP)
+- GROUP: Allows us to base our query on groups of data
+- HAVING: Uses aggregate functions to formulate conditions (used when using GROUP)
+- ORDER: Allows us to sort our data by an attribute in ASC and DESC order
+- LIMIT: Allows us to query only an x number of data
+- AS: Allows us to alias selected attributes by another name
 
-# Intro to SQL
-- intro-to-sql.md, music.db
-- [Video](https://docs.google.com/presentation/d/1eROyi8Hy4HQ68dVZD5xO7CgzFxss0gzRvIC839r23uo/edit?usp=sharing)
-- [Slides](https://docs.google.com/presentation/d/1eROyi8Hy4HQ68dVZD5xO7CgzFxss0gzRvIC839r23uo/edit?usp=sharing)
-
-# SQL Queries Pairing
-- sql-queries.md, challenge.md, queries.rb
+## Challenge
+- Challenge outlined in challenge.md.
+- Code your solution in queries.rb.
